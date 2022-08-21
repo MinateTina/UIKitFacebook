@@ -13,6 +13,7 @@
 		00D392B828B1B73300A23F72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D392B728B1B73300A23F72 /* Preview Assets.xcassets */; };
 		00D392BF28B1B7E300A23F72 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D392BE28B1B7E300A23F72 /* MainController.swift */; };
 		00D392C228B1C60100A23F72 /* LBTATools in Frameworks */ = {isa = PBXBuildFile; productRef = 00D392C128B1C60100A23F72 /* LBTATools */; };
+		00D392C428B1E0DF00A23F72 /* PhotosGridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D392C328B1E0DF00A23F72 /* PhotosGridController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		00D392B428B1B73300A23F72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00D392B728B1B73300A23F72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		00D392BE28B1B7E300A23F72 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		00D392C328B1E0DF00A23F72 /* PhotosGridController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosGridController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,10 @@
 			children = (
 				00D392B028B1B72F00A23F72 /* UIKitFacebookApp.swift */,
 				00D392B228B1B72F00A23F72 /* ContentView.swift */,
+				00D392BE28B1B7E300A23F72 /* MainController.swift */,
 				00D392B428B1B73300A23F72 /* Assets.xcassets */,
 				00D392B628B1B73300A23F72 /* Preview Content */,
+				00D392C328B1E0DF00A23F72 /* PhotosGridController.swift */,
 			);
 			path = UIKitFacebook;
 			sourceTree = "<group>";
@@ -67,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				00D392B728B1B73300A23F72 /* Preview Assets.xcassets */,
-				00D392BE28B1B7E300A23F72 /* MainController.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00D392C428B1E0DF00A23F72 /* PhotosGridController.swift in Sources */,
 				00D392B328B1B72F00A23F72 /* ContentView.swift in Sources */,
 				00D392BF28B1B7E300A23F72 /* MainController.swift in Sources */,
 				00D392B128B1B72F00A23F72 /* UIKitFacebookApp.swift in Sources */,

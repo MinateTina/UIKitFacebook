@@ -106,17 +106,17 @@ struct MainPreview: PreviewProvider {
     static var previews: some View {
         ContainerView().edgesIgnoringSafeArea(.all)
     }
+ 
+}
+
+struct ContainerView: UIViewControllerRepresentable {
     
-    struct ContainerView: UIViewControllerRepresentable {
+    func makeUIViewController(context: Context) -> some UIViewController {
         
-        func makeUIViewController(context: Context) -> some UIViewController {
-            
-            return UINavigationController(rootViewController: MainController())
-        }
-        
-        func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {
-            
-        }
+        return UINavigationController(rootViewController: MainController())
     }
     
+    func updateUIViewController(_ uiViewController: UIViewControllerType, context: Context) {
+        
+    }
 }
